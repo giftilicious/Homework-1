@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* Sets the background color for website */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets padding and appearance of header area including logo and navigation */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,15 +39,18 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Sets color of link text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets font size of paragraph text */
 p {
     font-size: 16px;
 }
 
+/* Sets size, positon and margin of background "hero" image */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,13 +60,15 @@ p {
     background-position: center;
 }
 
+/* Sets size and position of main area */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.feature {
+/* Sets stlye or appearance of each section within the main area */
+.card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -71,22 +77,24 @@ main {
     color: #ffffff;
 }
 
-.feature h2 {
+.card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.feature img {
+.card img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
+/* Positions image to the right of text */
 #float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets appearance for sidebar */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,6 +106,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* Sets style or appearance for sidebar items*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -114,6 +123,7 @@ aside {
     max-width: 150px;
 }
 
+/* Sets padding and appearance of footer area*/
 footer {
     padding: 30px;
     clear: both;
